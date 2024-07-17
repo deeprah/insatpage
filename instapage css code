@@ -1,0 +1,159 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+}
+img{
+    height:589px;
+    width:353px;
+}
+.right{
+    margin-left: 30px;
+
+}
+
+#box{
+    height:400px;
+    width:350px;
+    border:2px solid grey;
+    /* margin-top: 20px;
+    margin-left: 500px; */
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+#f1{
+    border:2px solid black;
+    padding:9px 0px 7px 8px;
+    height:36px;
+    width:258px;
+    background: rgb(var(--ig-secondary-background));
+    flex: 1 0 auto;
+    margin: 0;
+    outline: none;
+    overflow: hidden;
+    padding: 9px 0 7px 8px;
+    text-overflow: ellipsis;
+}
+
+
+#f2{
+    border:2px solid black;
+    padding:9px 0px 7px 8px;
+    height:36px;
+    width:258px;
+    margin-top: 10px;
+}
+#btn{
+    background-color:#429aff;
+    color:white;
+    height:32px;
+    width:268px;
+    padding:8px 40px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+#head{
+    background-image: url(https://static.cdninstagram.com/rsrc.php/v3/yM/r/8n91YnfPq0s.png);
+    background-position: 0px -52px;
+    background-size: auto;
+    width: 175px;
+    height: 51px;
+    background-repeat: no-repeat;
+}
+#icon{
+    display:flex;
+    align-items:center;
+    flex-direction: row;
+
+}
+#f4{
+    margin-left:20px;
+}
+.lower{
+    height:90px;
+    width:350px;
+    border:2px solid grey;
+   margin-top: 10px;
+    display:flex;
+    align-items: center;
+    flex-direction:row;
+    text-align: center;
+    
+}
+#f5
+{
+    margin-left:50px;
+}
+#f6{
+    margin-left:15px;
+    color:#0762cb;
+    font-weight:300px;
+    font-size: larger;
+}
+#f9{
+    margin-bottom:5px;
+}
+
+#hr1{
+    width:129px;
+    margin-right:10px;
+}
+#hr2{
+    width:129px;
+    margin-left:10px;
+}
+#hr{
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    height:50px;
+    width:250px;
+}
+.low{
+    
+    height:90px;
+    width:350px;
+    
+    display:flex;
+    align-items: center;
+    flex-direction:column;
+    text-align: center;
+}
+.img1
+{
+    height:40px;
+    width:138px;
+}
+.img2
+{
+    height:40px;
+    width:110px;
+}
+#playstore{
+    display:flex;
+    align-items: center;
+    flex-direction:row;
+    margin-top:25px;
+    box-sizing: border-box;
+
+}
+
+@media (max-width:500px) {
+    body{
+        background-color: yellow;
+    }
+}
+#f9{
+font-size: larger;
+}
