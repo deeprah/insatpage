@@ -1,0 +1,28 @@
+
+*{
+    margin:0px;
+    padding:0px;
+    background-color: #0f1111;
+}
+#navbar{
+   /* height:60px;*/
+    background-color: #0f1111;
+    border:5px solid #ffffff;
+    color:white;
+    
+    padding:30px;
+
+    
+}
+a{
+    margin-right:200px;
+    padding-top:15px;
+}
+#logo
+{
+    color:rgb(187, 109, 6);
+}
+#btn
+{
+    background-color: #f08804;
+}
