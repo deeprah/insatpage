@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="left">
+            <img src="ista2.png" alt="">
+        </div>
+        <div class="right">
+            <div id="box">
+                <h1 id="head"></h1>
+                <div class="input">
+                    <input type="text" placeholder="Phone number,username or email" id="f1">
+                </div>
+                <div class="input">
+                    <input type="password" placeholder="Password" id="f2">
+                </div>
+                <div>
+                    <button id="btn">login</button>
+                </div>
+                <div id="hr">
+                    <hr id="hr1">
+                    <p>or</p>
+                    <hr id="hr2">
+                </div>
+                <div id="icon">
+                    <i class="fa-brands fa-square-facebook"></i>
+                    <h3 id="f4">login with facebook</h3>
+                </div>
+                <div> Forgot password?</div>
+
+            </div>
+            <div class="lower">
+                <p id="f5">Don't have an account?</p>
+                <p id="f6">Sign up</p>
+            </div>
+            <div class="low">
+                <span id="f9">get the app</span>
+                <div id="playstore">
+                    <img alt="Get it on Google Play" class="img1"
+                        src="https://static.cdninstagram.com/rsrc.php/v3/yz/r/c5Rp7Ym-Klz.png">
+                    <img alt="Get it from Microsoft" class="img2"
+                        src="https://static.cdninstagram.com/rsrc.php/v3/yu/r/EHY6QnZYdNX.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
